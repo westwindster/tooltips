@@ -15,5 +15,5 @@ interface TooltipActions {
 
 export function tooltip(
   element: HTMLElement,
-  props: ActionProps
+  props?: ActionProps
 ): TooltipActions;
